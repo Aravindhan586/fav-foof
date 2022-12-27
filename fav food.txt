@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title>Fav Food</title>
+    <style>
+      h1{
+        position: absolute;
+        top:14px;
+        left:250px;
+        COLOR:RED;       
+         }
+      h3{
+        color:black;
+        text-align:center;
+        }
+      p{
+            color:white;
+            text-align: center;
+        }
+        .food_image{
+          width:100%;
+          height:100%;
+    }
+    img{
+        height:85%;
+        display:block;
+        margin-left:auto; 
+        margin-right:auto;
+        width:75%;
+        
+    }
+    
+   </style>
+</head>
+<body>
+    <div>
+        <div>
+            <div style="background-color:blue"; class="food_image">
+    <img id="titleimage"
+      src="https://media-cdn.tripadvisor.com/media/photo-p/1a/8f/21/91/mutton-biriyani.jpg"alt="pic1" />
+      <h1 id="titlename">I LOVE FOOD </h1>
+    
+        </div>
+          <div style="background-color:red"; class="food_image">
+            <h3 id="favfood1">PIZZA</h3>
+            <p id="foodDiscription1">pizza was first created by ancient greeks</p>
+            <img id="favfoodimage1"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVUNI9MUIYQIyXl_2D2DmmWTe6MZve6jgLGA&usqp=CAU"style="border:4px solid  rgb(5, 32, 129) ;padding: 10px ;" alt="pic2"/>
+        </div>
+        <div style="background-color:blue" class="food_image">
+            <h3 id="favfood2">INDIAN FOOD</h3>
+            <p id="fooddiscription2">Indian food are naturaly healthy</P>
+            <img id="favfoodimage2"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsgJRsd8zqVUNb8084IdUkniiB80Jx6BDOw&usqp=CAU " style="border:4px solid rgb(231, 61, 14);padding: 10px ;">
+          </div>
+          <div style="background-color:red" class="food_image">
+            <h3 id="favfood3">ICE CREAME</h3>
+            <p id="foodDiscription3">It is a frozen sweet dessert</p>
+            <img id="favfoodimage3"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVLUC2DbsuIYIP2GuPYJDdQD1UorBa9gPCcA&usqp=CAUs" style="border:4px solid rgb(5, 32, 129);padding: 10px ;">
+            </div>
+        </div>
+    </div>    
+  </body>               
+</html>
